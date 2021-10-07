@@ -30,6 +30,19 @@ public class Bil {
         this.motor = motor;
         this.hjul = hjul;
     }
+    public void StartMotor(){
+
+        motorStatus = true;
+
+    }
+    public void SlukMotor(){
+
+        motorStatus = false;
+
+
+    }
+
+
 
     @Override
     public String toString() {
